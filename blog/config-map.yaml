@@ -1,0 +1,7 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: blog-app-cm
+data:
+  blog.site.name: FIAP 6ASO Solution Sprint 4 - Group 25
+  blog.site.color: blue
