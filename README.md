@@ -14,3 +14,4 @@ Run:
 - git clone https://github.com/LcsK/fiap-6aso-ocp.git
 - cd fiap-6aso-ocp
 - oc apply -k ./
+- Access `http://group25-blog.apps.na46.prod.nextcle.com/`

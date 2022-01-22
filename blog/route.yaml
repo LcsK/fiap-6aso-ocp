@@ -11,7 +11,7 @@ metadata:
     app.openshift.io/runtime: python
     app.openshift.io/runtime-version: 3.8-ubi7
 spec:
-  host: blog-app.apps.na46.prod.nextcle.com
+  host: group25-blog.apps.na46.prod.nextcle.com
   to:
     kind: Service
     name: blog-app
@@ -24,4 +24,4 @@ status:
     - host: group25-blog.apps.na46.prod.nextcle.com
       routerName: default
       wildcardPolicy: None
-      routerCanonicalHostname: apps.na46.prod.nextcle.com
+      routerCanonicalHostname: group25-blog.apps.na46.prod.nextcle.com
